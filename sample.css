@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&display=swap');
+body {
+    background-color: lightcyan;
+  }
+  h1 {
+    color: darkcyan;
+    font-family: 'Kalnia', serif;
+  }
+  p {
+    color: rgb(1, 23, 31);
+  } 

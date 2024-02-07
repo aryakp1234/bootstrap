@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix login page</title>
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+     <!-- <nav>
+        <a href ='#'><img src="netflix.jpg" alt="logo"></a>
+     </nav> --> -->
+     <div class="form-wrapper" style=" flex-direction: column;
+        background: rgba(0, 0, 0, 0.75);
+        border-radius: 4px;
+        text-align: center;
+        width: 300px;
+        height: 400px;
+        padding: 60px 68px 40px;">
+        <h2 style="color: white;">Sign In</h2>
+        <form action="#">
+            <div class="form-control">
+                <input type="text" placeholder=" Email or phone number" style="background-color: rgb(43, 43, 43); padding: 3px;">
+            </div>
+            <div class="form-control">
+                <input type="password" placeholder="password" style="background-color: rgb(43, 43, 43);">
+            </div>
+            <!-- <div style="background-color: red; padding: 3px; top: 120px;  "> -->
+            <button type="submit" style="background-color: red; color: white; padding: 3px; top: 120px; text-align: center;  ">Sign In</button>
+            <!-- </div> -->
+            <div class="form-help">
+                <h6><div class="remember-me" style="color: white; position: absolute; left: 720px; top: 350px;">
+                 <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div></h6>
+
+                <h6><a href="#" style="color: white; position:absolute;right: 690px;top: 355px;">Need help?</a></h6>
+            </div>
+        </form>
+        <div style="color: white; position: absolute;top:370px; left:720px ;">
+        <p >New to Netflix?<a href="#">  Sign Up Now</a></p>
+        </div>
+        <div style="color: rgb(137, 120, 120);position: absolute;float:left;top: 420px; left: 600px;">
+        <small>
+            This page is protected by google reCAPTCHA to ensure you're not a bot<br>
+            <a href="#">Learn more.</a>
+        </small>
+     </div>
+     
+</body>
+</html>

@@ -1,0 +1,34 @@
+.bg{
+    background-image: url(woodbrook3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    z-index: -2;
+}
+
+.glass{
+    position:absolute;
+    background-color: rgb(133, 65, 17);
+    width: 790px;
+    height: 400px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.bg1{
+    background-image: url(woodbrook3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+    z-index: -2;
+}
+.glass1{
+    position:absolute;
+    background-color: rgb(3, 90, 3);
+    width: 900px;
+    height: 400px;
+    opacity: 0.5;
+    z-index: -1;
+}
